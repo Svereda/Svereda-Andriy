@@ -1,0 +1,13 @@
+x=float(input("Введіть число:"))
+y=float(input("Введіть число:"))
+operation=input("Операція:")
+
+if operation=="+":
+    result=x+y
+if operation=="-":
+    result=x-y
+if operation=="*":
+    result=x*y
+if operation=="/":
+    result=x/y
+print("Результат",result)
