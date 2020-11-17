@@ -1,8 +1,6 @@
 al="абвгґдеєжзиіїйклмнопрстуфхцчшщьюяабвгґдеєжзиіїйклмнопрстуфхцчшщьюя,abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
 
 slv=input("Введіть слово:")
-n=int(input())
-n+=1
 
 key=int(1)
 slv_low=slv.lower()
@@ -15,4 +13,4 @@ for letter in slv_low:
         slv=slv+al[new_position]
     else:
         slv=slv+letter
-print(slv,n)
+print(slv)
