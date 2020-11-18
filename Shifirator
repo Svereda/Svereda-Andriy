@@ -1,5 +1,4 @@
 al="абвгґдеєжзиіїйклмнопрстуфхцчшщьюяабвгґдеєжзиіїйклмнопрстуфхцчшщьюя,abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
-
 slv=input("Введіть слово:")
 
 key=int(1)
@@ -13,4 +12,10 @@ for letter in slv_low:
         slv=slv+al[new_position]
     else:
         slv=slv+letter
-print(slv)
+n=int(input("Введіть цифру:"
+            "якщо не порібно вводити введіть 0"))
+if n==0:
+    print(slv)
+if n>0:
+    n+=1
+    print(slv,n)
