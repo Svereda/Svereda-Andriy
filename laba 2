@@ -1,7 +1,8 @@
 entr = ""
 list_a = []
 enter = str(input("Please choose A or B: "))
-alphabet="АБВГДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯабвгдеєжзиіїйклмнопрстуфхцчшщьюя"
+alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz" \
+            "АБВГДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯабвгдеєжзиіїйклмнопрстуфхцчшщьюя"
 if enter.upper()=="А" or enter.upper()=="A" :
     a = input("Введіть текст >>>").split()
     for i in a:
